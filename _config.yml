@@ -27,6 +27,8 @@ baseurl: "/try1.github.io"
 # theme: minima
 remote_theme : mmistakes/minimal-mistakes
 plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache
   - jekyll-feed
 
 # Exclude from processing.
